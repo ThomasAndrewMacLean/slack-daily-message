@@ -1,26 +1,26 @@
 {
-  "name": "slack-daily-message",
-  "version": "1.0.0",
-  "description": "send a daily message to a slack group",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ThomasAndrewMacLean/slack-daily-message.git"
-  },
-  "keywords": [],
-  "author": "Thomas MacLean <hello@thomasmaclean.be> (https://thomasmaclean.be)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ThomasAndrewMacLean/slack-daily-message/issues"
-  },
-  "homepage": "https://github.com/ThomasAndrewMacLean/slack-daily-message#readme",
-  "dependencies": {
-    "node-fetch": "^2.5.0"
-  },
-  "devDependencies": {
-    "dotenv-json": "^1.0.0"
-  }
+    "name": "slack-daily-message",
+    "version": "1.0.0",
+    "description": "send a daily message to a slack group",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ThomasAndrewMacLean/slack-daily-message.git"
+    },
+    "keywords": [],
+    "author": "Thomas MacLean <hello@thomasmaclean.be> (https://thomasmaclean.be)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ThomasAndrewMacLean/slack-daily-message/issues"
+    },
+    "homepage": "https://github.com/ThomasAndrewMacLean/slack-daily-message#readme",
+    "dependencies": {
+        "node-fetch": "^2.5.0"
+    },
+    "devDependencies": {
+        "dotenv-json": "^1.0.0"
+    }
 }
